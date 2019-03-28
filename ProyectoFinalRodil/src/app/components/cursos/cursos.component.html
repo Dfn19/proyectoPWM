@@ -1,0 +1,16 @@
+<div class="container">
+<div class="card-columns">
+<div class="card mt-5" *ngFor="let cursos of cursos; let i = index" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{cursos.nombre}}</h5>
+      <p class="card-text">{{cursos.profesor}}</p>
+      <p class="card-text">{{cursos.dias}}</p>
+   <!--<button (click) = "verCurso(i)" class="btn btn-outline-primary btn-block">Ver más</button>-->
+  </div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+    <img id="Fondo-Portada" style="width: 1300px; height: 160px; position: absolute; left:0" src="./../assets/img/fondoazul2.png" alt="">
+</div>

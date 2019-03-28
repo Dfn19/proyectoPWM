@@ -1,0 +1,20 @@
+#Nena {
+    height: 80vh;
+
+  }
+
+  #Nena2 {
+    height: 60vh;
+
+  }
+
+.jumbotron{
+  padding: 60px;
+  margin: 80px;
+  background:lightpink;
+}
+
+
+.p{
+  font-size: 300px;
+}
